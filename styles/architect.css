@@ -2,15 +2,12 @@
 
 *{
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;  
 }
 
 /* nav header */
 header{
     background: #f4ebe0;
-    padding: 20px 240px;
+    padding: 50px 240px;
 }
 nav{
     display: flex;
@@ -34,20 +31,19 @@ font-weight: 700;
 font-size: 45px;
 color: #131313;
 }
+/* banner styles */
 .banner-content{
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.banner-title{
+.banner-title{ 
 font-weight: 700;
 font-size: 64px;
 color: #131313;
 }
 .banner-description{
-font-weight: 400;
-font-size: 16px;
 color: #727272;
 margin-bottom: 40px;
 }
@@ -57,4 +53,32 @@ margin-bottom: 40px;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.banner img{
+    width: 100%;
+}
+
+/* Responsive styless */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* Tablet Or medium devies */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
