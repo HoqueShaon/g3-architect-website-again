@@ -92,8 +92,29 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
-
-
+/* fact section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 5px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px 40px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.facts-card-container .card-stats{
+    font-size: 42px;
+    color: #424242;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
 
 
 
@@ -105,7 +126,8 @@ main{
         padding: 20px;
     }
     nav, 
-    .teams-container{
+    .teams-container,
+    .facts-card-container{
         flex-direction: column;
     }
     .teams-img-container{
