@@ -6,7 +6,11 @@
 .text-gray{
     color: #727272;
     }
-
+.section-title{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        }
 /* nav header */
 header{
     background: #f4ebe0;
@@ -28,11 +32,6 @@ nav  li{
 }
 nav li a{
     text-decoration: none;
-}
-.nav-title{
-font-weight: 700;
-font-size: 45px;
-color: #131313;
 }
 /* banner styles */
 .banner-content{
