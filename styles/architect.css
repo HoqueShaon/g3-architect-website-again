@@ -169,6 +169,16 @@ main{
     width: 165px;
 }
 
+.footer{
+    background-color: #f4ebe0;
+    margin: 120px 0;
+    padding: 30px;
+}
+.footer-description{
+    font-size: 24px;
+}
+
+
 /* Responsive styless */
 
 @media screen and (max-width:576px) {
